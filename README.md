@@ -21,5 +21,16 @@ Kaggle -
 ## ER Diagram
 
 ## Rough Outline
-
+- Intoduction
+  - Age Range
+  - Oldest player - Youngest player
+  - Avg. age per team
+- HR : Home runs hit/allowed
+- RBI : Runs batted in
+- SB : Stolen bases
+- BA : Hits/at bats
+- Machine Learning Module
+- Conclusion
 ## Machine Learning Model
+Unsupervised Learning Model
+- Clustering? 
