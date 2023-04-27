@@ -33,4 +33,6 @@ Kaggle -
 - Conclusion
 ## Machine Learning Model
 Unsupervised Learning Model
-- Clustering? 
+- Elbow Curve
+- Clustering
+- K-means
