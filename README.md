@@ -19,6 +19,7 @@ Kaggle -
 - What is the HR probability of an MLB player based on age?
 
 ## ER Diagram
+![](https://github.com/LeishMarrero/SlidingIntoTheMLB/blob/main/Project_Images/QuickDBD-export.png)
 
 ## Rough Outline
 - Intoduction
