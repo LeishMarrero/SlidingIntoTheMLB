@@ -8,14 +8,7 @@ Kaggle -
 2022 MLB Player Stats - Pitching.csv
 
 
-### Project Idea
-(Pick one)
-- At what age is an MLB player's statistics the highest?
-- At what age is an MLB player more effective? 
-- At what age does an MLB player's overall performance peak?
-- Based on age, when does an MLB player perform the best? 
-
-### Predictive Problem
+### Project Idea - MLB Stats based on age
 - What is the HR probability of an MLB player based on age?
 
 ## ER Diagram
@@ -32,8 +25,8 @@ Kaggle -
 - BA : Hits/at bats
 - Machine Learning Module
 - Conclusion
-## Machine Learning Model
-Unsupervised Learning Model
-- Elbow Curve
-- Clustering
-- K-means
+
+## Machine Learning
+Supervised Learning Model
+- Multiple Linear Regression
+Predicting HR, RBIs, and BA based on player's age.
