@@ -20,9 +20,17 @@ Kaggle -
   - Oldest player - Youngest player
   - Avg. age per team
 - HR : Home runs hit/allowed
+  - Line Chart
+  - Box Plot
 - RBI : Runs batted in
+  - Line Chart
+  - Box Plot
 - SB : Stolen bases
+  - Line Chart
+  - Box Plot
 - BA : Hits/at bats
+  - Line Chart
+  - Box Plot
 - Machine Learning Module
 - Conclusion
 
@@ -30,3 +38,5 @@ Kaggle -
 Supervised Learning Model
 - Multiple Linear Regression
 Predicting HR, RBIs, and BA based on player's age.
+
+![PaperModel](Project_Images/PaperModel.png)
