@@ -14,6 +14,9 @@ Kaggle -
 ## ER Diagram
 ![](https://github.com/LeishMarrero/SlidingIntoTheMLB/blob/main/Project_Images/QuickDBD-export.png)
 
+## Tableau Dashboard
+[MLB Dashboard](https://public.tableau.com/views/MLBProject_16831646424700/SBonMap?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 ## Rough Outline
 - Intoduction
   - Age Range
