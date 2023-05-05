@@ -42,4 +42,4 @@ Supervised Learning Model
 - Multiple Linear Regression
 Predicting HR, RBIs, and BA based on player's age.
 
-![PaperModel](Project_Images/PaperModel.png)
+![PaperModel1](Project_Images/PaperModel1.png)
