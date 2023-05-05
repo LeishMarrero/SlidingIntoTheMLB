@@ -9,7 +9,7 @@ Kaggle -
 
 
 ### Project Idea - MLB Stats based on age
-- What is the HR probability of an MLB player based on age?
+- What is the HR probability of an MLB player when considering age, weight, and height?
 
 ## ER Diagram
 ![](https://github.com/LeishMarrero/SlidingIntoTheMLB/blob/main/Project_Images/QuickDBD-export.png)
