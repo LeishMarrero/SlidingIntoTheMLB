@@ -1,11 +1,9 @@
 # Sliding into the MLB
 
 ## Dataset
-Kaggle - 
+[Lahman Baseball Database](http://seanlahman.com/download-baseball-database/)- 
 
-2022 MLB Player Stats - Batting.csv
-
-2022 MLB Player Stats - Pitching.csv
+[Stats as of 2022 CSV](https://github.com/chadwickbureau/baseballdatabank/archive/refs/tags/v2023.1.zip)
 
 
 ### Project Idea - MLB Stats based on age
