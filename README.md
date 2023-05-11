@@ -16,7 +16,7 @@ In a game based on numbers, we want to know how a player's statistics impact how
 [Tableau Dashboard "working Copy"](https://public.tableau.com/views/MLBProject_16831646424700/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Draft Presentation
-[PowerPoint Presentation Draft](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/edit?usp=sharing)
+[PowerPoint Presentation Draft](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/present?usp=sharing)
 
 
 ## Machine Learning
