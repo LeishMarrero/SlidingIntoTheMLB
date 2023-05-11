@@ -1,4 +1,4 @@
-# Sliding into the MLB
+# Sliding into the MLB   
 
 ## Dataset
 [Lahman Baseball Database](http://seanlahman.com/download-baseball-database/)- 
@@ -16,7 +16,7 @@ In a game based on numbers, we want to know how a player's statistics impact how
 [Tableau Dashboard "working Copy"](https://public.tableau.com/views/MLBProject_16831646424700/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Draft Presentation
-[PowerPoint Presentation Draft](https://github.com/LeishMarrero/SlidingIntoTheMLB/blob/95e7cca9e7d4cd04437049e66de8be0234a7c680/Sliding%20Into%20the%20MLB.pptx)
+[PowerPoint Presentation Draft](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/edit?usp=sharing)
 
 
 ## Machine Learning
