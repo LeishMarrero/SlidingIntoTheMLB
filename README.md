@@ -1,4 +1,4 @@
-# Sliding into the MLB   
+![title](Project_Images/title.png)
 
 ## Dataset
 [Lahman Baseball Database](http://seanlahman.com/download-baseball-database/)- 
