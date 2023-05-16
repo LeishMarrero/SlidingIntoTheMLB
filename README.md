@@ -1,4 +1,4 @@
-![title](Project_Images/title.png)
+![title2](Project_Images/title2.png)
 
 ## Dataset
 [Lahman Baseball Database](http://seanlahman.com/download-baseball-database/)- 
