@@ -7,7 +7,10 @@
 
 
 ### Overview
-In a game based on numbers, we want to know how a player's statistics impact how many homeruns they will hit a year. Our goal is to create a model that will predict how many homeruns a player can hit based on their age, weight, height, hits, runs batted in, and which side they bat on.
+The MLB has hired us to establish trends in stats for better performance. In a game based on numbers, we want to know how a player's statistics impact how many homeruns they will hit a year. Our goal is to create a model that will predict how many homeruns a player can hit based on their age, weight, height, hits, runs batted in, and which side they bat on. We are focused on homeruns because "scoring runs" is the way that baseball games are decided. Hitting a home run is the only play guaranteed to score a run.
+
+This will help improve the game by showing players which features they can improve on to be able to be more efficient in hitting homeruns. This can also help coaches create gameday line-up based on which players are more susceptible to hitting homeruns. Lastly, this can help team manangers make accurate predictions when deciding if they will extend a contract offer to a prospective player or a contract extension.
+
 
 ## ER Diagram
 Our dataset had all the needed information in one table so we split the data to create a new table for our machine learning model.
