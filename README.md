@@ -7,9 +7,9 @@
 
 
 ## Overview
-The MLB has hired us to establish trends in stats for better performance. In a game based on numbers, we want to know how a player's statistics impact how many homeruns they will hit a year. Our goal is to create a model that will predict how many homeruns a player can hit based on their age, weight, height, hits, runs batted in, and which side they bat on. We are focused on homeruns because scoring runs is the way that baseball games are decided. Hitting a home run is the only play guaranteed to score a run.
+Major League Baseball (MLB) has hired us to research trends of player statistics for better performance. In a game based on numbers, we want to know how a player's features and performance impact how many homeruns they will hit a year. Our goal is to create a model that will predict how many homeruns a player can hit based on their age, weight, height, hits, runs batted in, and which side they bat on. We are focused on homeruns because scoring runs is the way that baseball games are decided. Hitting a home run is the only play guaranteed to score a run.
 
-This will help improve the game by showing players which features they can improve on to be able to be more efficient in hitting homeruns. This can also help coaches create gameday line-up based on which players are more susceptible to hitting homeruns. Lastly, this can help team manangers make accurate predictions when deciding if they will extend a contract offer to a prospective player or a contract extension.
+This will help improve the game by showing players which features they can improve on to be able to be more efficient in hitting homeruns. This can also help coaches create gameday line-ups based on which players are more susceptible to hitting homeruns. Lastly, this can help team managers make accurate predictions when deciding if they will extend a contract offer to a prospective player or a contract extension.
 
 
 ## ER Diagram
@@ -47,7 +47,7 @@ Our dataset had all the needed information in one table so we split the data to 
 
 ## Machine Learning
 ### Linear Regression
-Based on our dataset, we used a multiple linear regression model to evaluate the relationship between different variables like age, height, weight, number of hits, and batting position to determine the homeruns a player can hit. We use statistics for the past 4 years in the MLB for each player. First, we used scikit learns LabelEncoder to convert our "bats" data to numerical data. We then calculated the variance inflation factor to measure how much the behavior of our independent variables correlate with other independent variables. VIF equal to 1 means variables are not correlated. Two variables that were moderately correlated are height and weight with a 1.4 VIF. After splitting our data and training our model, our mean absolute error was a 3.7, meaning our predictions varied plus or minus 3.7 homeruns. Our coefficients showed that two variables which have a bigger impact on how many homeruns will be hit are height and how many hits a player has. This model shows age doesn't necessarily impact how many homeruns will be hit by a player. Our model showed an accuracy score of 66.5%.
+Based on our dataset, we used a multiple linear regression model to evaluate the relationship between different variables like age, height, weight, number of hits, and batting side to determine the homeruns a player can hit. We use statistics for the past 4 years in the MLB for each player. First, we used scikit learns LabelEncoder to convert our "bats" data to numerical data. We then calculated the variance inflation factor (VIF) to measure how much the behavior of our independent variables correlate with other independent variables. VIF equal to 1 means variables are not correlated. Two variables that were moderately correlated are height and weight with a 1.4 VIF. After splitting our data and training our model, our mean absolute error was a 3.7, meaning our predictions varied plus or minus 3.7 homeruns. Our coefficients showed that two variables which have a bigger impact on how many homeruns will be hit are height and how many hits a player has. This model shows age doesn't necessarily impact how many homeruns will be hit by a player. Our model showed an accuracy score of 66.5%.
 
 ![VIF](Project_Images/VIF.png)
 
@@ -60,7 +60,7 @@ Based on our dataset, we used a multiple linear regression model to evaluate the
 ![LinearOLS](Project_Images/LinearOLS.png)
 
 ### Decision Tree Regression
-Since our linear regression model was not working as we hoped, we decided to change to the Decision Tree Regression Model. We added another variable that we believed would improve our results, runs batted in (RBI). After splitting our data and training our new model, our mean absolute error decreased to a 3.1 and our accuracy score increased to an 87.3%. Meaning our model predictions may vary plus or minus 3.1 and the model explains 87% of the fitted data. RBI’s made a huge impact in our predictions as every homerun allows a run to score. 
+Since our linear regression model was not performing as we hoped, we decided to change to the Decision Tree Regression Model. We added another variable that we believed would improve our results, runs batted in (RBI). After splitting our data and training our new model, our mean absolute error decreased to 3.1 and our accuracy score increased to 87.3%. Meaning our model predictions may vary plus or minus 3.1 homeruns and the model explains 87% of the fitted data. RBI’s made a huge impact in our predictions as every homerun allows a run to score. 
 
 ![AgeDT1](Project_Images/AgeDT1.png)
 
