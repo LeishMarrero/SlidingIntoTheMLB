@@ -54,7 +54,7 @@ Based on our dataset, we used a multiple linear regression model to evaluate the
 
 ![Weight](Project_Images/Weight.png)
 
-![LinearOLS](Project_Images/LinearOLS.png
+![LinearOLS](Project_Images/LinearOLS.png)
 
 ### Decision Tree Regression
 Since our linear regression model was not working as we hoped, we decided to change to the Decision Tree Regression Model. We added another variable that we believed would improve our results, runs batted in (RBI). After splitting our data and training our new model, our mean absolute error decreased to a 3.1 and our accuracy score increased to an 87.3%. Meaning our model predictions may vary plus or minus 3.1 and the model explains 87% of the fitted data. RBI’s made a huge impact in our predictions as every homerun allows a run to score. 
