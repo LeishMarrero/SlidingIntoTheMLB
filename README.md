@@ -86,6 +86,10 @@ Since our linear regression model was not performing as we hoped, we decided to 
 
 ![WeightDT2](Project_Images/WeightDT2.png)
 
+![BatsDT1](Project_Images/BatsDT1.png)
+
+![BatsDT2](Project_Images/BatsDT2.png)
+
 ![RBIDT1](Project_Images/RBIDT1.png)
 
 ![RBIDT2](Project_Images/RBIDT2.png)
