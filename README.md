@@ -46,10 +46,14 @@ Our dataset had all the needed information in one table so we split the data to 
 
 
 ## Machine Learning
-### Linear Regression
+## Linear Regression
 Based on our dataset, we used a multiple linear regression model to evaluate the relationship between different variables like age, height, weight, number of hits, and batting side to determine the homeruns a player can hit. We use statistics for the past 4 years in the MLB for each player. First, we used scikit learns LabelEncoder to convert our "bats" data to numerical data. We then calculated the variance inflation factor (VIF) to measure how much the behavior of our independent variables correlate with other independent variables. VIF equal to 1 means variables are not correlated. Two variables that were moderately correlated are height and weight with a 1.4 VIF. After splitting our data and training our model, our mean absolute error was a 3.7, meaning our predictions varied plus or minus 3.7 homeruns. Our coefficients showed that two variables which have a bigger impact on how many homeruns will be hit are height and how many hits a player has. This model shows age doesn't necessarily impact how many homeruns will be hit by a player. Our model showed an accuracy score of 66.5%.
 
+### Variance Inflation Factor
+
 ![VIF](Project_Images/VIF.png)
+
+### Mean Absolute Error
 
 ![MAE](Project_Images/MAE.png)
 
@@ -59,8 +63,16 @@ Based on our dataset, we used a multiple linear regression model to evaluate the
 
 ![LinearOLS](Project_Images/LinearOLS.png)
 
-### Decision Tree Regression
-Since our linear regression model was not performing as we hoped, we decided to change to the Decision Tree Regression Model. We added another variable that we believed would improve our results, runs batted in (RBI). After splitting our data and training our new model, our mean absolute error decreased to 3.1 and our accuracy score increased to 87.3%. Meaning our model predictions may vary plus or minus 3.1 homeruns and the model explains 87% of the fitted data. RBI’s made a huge impact in our predictions as every homerun allows a run to score. 
+## Decision Tree Regression
+Since our linear regression model was not performing as we hoped, we decided to change to the Decision Tree Regression Model. We added another variable that we believed would improve our results, runs batted in (RBI). 
+
+### Variance Inflation Factor
+
+![DTVIF](Project_Images/DTVIF.png)
+
+### Mean Absolute Error
+
+![MAE1](Project_Images/MAE1.png)
 
 ![AgeDT1](Project_Images/AgeDT1.png)
 
@@ -82,7 +94,16 @@ Since our linear regression model was not performing as we hoped, we decided to 
 
 ![HDT2](Project_Images/HDT2.png)
 
-![MAE1](Project_Images/MAE1.png)
+## Results
 
-![DTOLS](Project_Images/DTOLS.png)
+We improved our model by removing the variables that proved had no correlation with predicting homeruns, like age and weight. We reviewed our VIF score after adding RBIs and noticed the strong correlation between "Hits" and "RBIs". This led us to also remove "Hits" from the dataset to train our model. After splitting our data and training our new model, our mean absolute error decreased to 3.1 and our accuracy score increased to 85%. Meaning our model predictions may vary plus or minus 3.1 homeruns and the model explains 85% of the fitted data. RBI’s made a huge impact in our predictions as every homerun allows a run to score. Height shows a positive correlation with a coefficient of 0.21. Batting side also shows a positive correlation with homeruns with a coefficient of 0.26. Lastly, RBIs show a positive correlation with homeruns with a coefficient of 0.31.
 
+![DT2OLS](Project_Images/DT2OLS.png)
+
+## Predicted Results
+
+![Predictions](Project_Images/Predictions.png)
+
+## Recommendation for Future Analysis
+
+One feature that could provide some important insight for future analysis would be location. It is a known fact that differences in elevation change the density of the air which has a direct correlation with the resistance on a baseball after a hit. Some stadiums at higher elevations have a known higher rate of homeruns hit in them. Players that play at these stadiums with their home teams may appear to be higher than average sluggers, when in reality it’s just the advantage of the physical location.
