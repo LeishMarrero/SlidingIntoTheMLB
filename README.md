@@ -39,10 +39,10 @@ Our dataset had all the needed information in one table so we split the data to 
 - Seaborn
 
 ## Tableau Dashboard
-[Tableau Dashboard "working Copy"](https://public.tableau.com/views/MLBProject_16831646424700/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/MLBProject_16831646424700/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Draft Presentation
-[PowerPoint Presentation Draft](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/edit?usp=sharing)
+[PowerPoint Presentation](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/edit?usp=sharing)
 
 
 ## Machine Learning
