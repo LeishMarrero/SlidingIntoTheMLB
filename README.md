@@ -42,7 +42,7 @@ Our dataset had all the needed information in one table so we split the data to 
 [Tableau Dashboard](https://public.tableau.com/views/MLBProject_16831646424700/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Draft Presentation
-[PowerPoint Presentation](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/edit?usp=sharing)
+[PowerPoint Presentation](https://docs.google.com/presentation/d/18p30GQuymT2IiWoWPWBuGUrkOBxBS357Z4zxULx0iWU/present?usp=sharing)
 
 
 ## Machine Learning
